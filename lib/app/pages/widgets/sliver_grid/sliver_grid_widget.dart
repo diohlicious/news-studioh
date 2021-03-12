@@ -84,14 +84,6 @@ class SliverGridWidget extends StatelessWidget {
                       fontSize: 10, color: Colors.grey.shade700),
                 ),
             ),
-            Text(
-              d.description,
-              overflow: TextOverflow.ellipsis,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.brown,
-              ),
-            ),
           ],
         ),
       ));
